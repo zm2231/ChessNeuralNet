@@ -3,12 +3,12 @@ A WIP Chess AI
 
 To-Do
 
-[x] Add/Make a program to generate the board
+- [x] Add/Make a program to generate the board
 
-[x] Add/Make a program to enforce the rules of chess
+- [x] Add/Make a program to enforce the rules of chess
 
-[] Add/Make a program to look ahead for better moves
+- [] Add/Make a program to look ahead for better moves
 
-[] Make the "AI" 
+- [] Make the "AI" 
 
-[] Host on a server/website (possibly github pages)
+- [] Host on a server/website (possibly github pages)
