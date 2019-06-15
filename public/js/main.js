@@ -2,7 +2,7 @@ var board,
     game = new Chess();
 
 // Actions after any move
-var onChange = function(oldPos, newPos) {
+var onMoveEnd = function(oldPos, newPos) {
   // Alert if game is over
   if (game.game_over() === true) {
     alert('Game Over');
@@ -43,10 +43,12 @@ var onSnapEnd = function() {
   board.position(game.fen());
 };
 
+// Configure board
 var cfg = {
   draggable: true,
   position: 'start',
-  onChange: onChange,
+    // Handlers for user actions
+    onMoveEnd: onMoveEnd,
   onDragStart: onDragStart,
   onDrop: onDrop,
   onSnapEnd: onSnapEnd
