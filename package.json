@@ -8,7 +8,7 @@
   },
   "repository": "git+https://github.com/zm2231/ChessNeuralNet-2.git",
   "author": "zm2231 <zainmerchant@protonmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zm2231/ChessNeuralNet/issues"
   },
