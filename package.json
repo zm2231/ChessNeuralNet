@@ -1,5 +1,5 @@
 {
-  "name": "chess-ai-2",
+  "name": "chessneuralnet",
   "version": "0.0.1",
   "description": "A chess AI, with different iterations and increasing intelligence",
   "main": "app.js",
