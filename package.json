@@ -6,18 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zm2231/ChessNeuralNet.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/zm2231/ChessNeuralNet-2.git",
+  "author": "zm2231 <zainmerchant@protonmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zm2231/ChessNeuralNet/issues"
   },
   "homepage": "https://github.com/zm2231/ChessNeuralNet#readme",
   "dependencies": {
-    "chess.js": "^0.10.2",
     "express": "^4.15.3"
   }
 }
