@@ -1,7 +1,7 @@
 /**
-	 * Finds a random move to make
-	 * @return {string} move to make
-	 */
+ * Finds a random move to make
+ * @return {string} move to make
+ */
 var randomMove = function() {
   var possibleMoves = game.moves();
   var randomIndex = Math.floor(Math.random() * possibleMoves.length);
@@ -9,10 +9,10 @@ var randomMove = function() {
 };
 
 /**
-	 * Evaluates current chess board relative to player
-	 * @param {string} color - Players color, either 'b' or 'w'
-	 * @return {Number} board value relative to player
-	 */
+ * Evaluates current chess board relative to player
+ * @param {string} color - Players color, either 'b' or 'w'
+ * @return {Number} board value relative to player
+ */
 var evaluateBoard = function(board, color) {
   // Sets the value for each piece using standard piece value
   var pieceValue = {
