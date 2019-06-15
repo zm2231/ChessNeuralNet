@@ -1,19 +1,19 @@
 {
   "name": "chessneuralnet",
   "version": "1.0.0",
-  "description": "A chess AI, with different iterations and increasing intelligence",
+  "description": "a chess ai with multiple alogrithms",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
-  "repository": "git+https://github.com/zm2231/ChessNeuralNet-2.git",
-  "author": "zm2231 <zainmerchant@protonmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zm2231/ChessNeuralNet.git"
+  },
+  "author": "Zain Merchant",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zm2231/ChessNeuralNet/issues"
   },
-  "homepage": "https://github.com/zm2231/ChessNeuralNet#readme",
-  "dependencies": {
-    "express": "^4.15.3"
-  }
+  "homepage": "https://github.com/zm2231/ChessNeuralNet#readme"
 }
