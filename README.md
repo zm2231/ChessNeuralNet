@@ -90,3 +90,4 @@ See [LICENSE-3RD-PARTY](LICENSE-3RD-PARTY) file for full licenses
 * Improve interface
 * Refactor code
 * Get this to work in Safari
+* The AI is terrible at beggining, but is amazing at endgame. Fix somehow?
