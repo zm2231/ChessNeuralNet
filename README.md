@@ -89,3 +89,4 @@ See [LICENSE-3RD-PARTY](LICENSE-3RD-PARTY) file for full licenses
 * Add an element of machine learning
 * Improve interface
 * Refactor code
+* Get this to work in Safari
