@@ -1,20 +1,20 @@
+var start = function(){
+
+  console.log('Enter info as follows:\nplayGame(skillW=(1,2,3), skillB=(1,2,3), evalW=(1,2), evalB=(1,2))');
+  return;
+};
+
 // Computer makes a move with algorithm choice and skill/depth level
-var makeMove = function(algo, skill=3) {
+var makeMove = function(skill=1, eval=1) {
   // exit if the game is over
   if (game.game_over() === true) {
     console.log('game over');
     return;
   }
-  // Calculate the best move, using chosen algorithm
-  if (algo === 1) {
-    var move = randomMove();
-  } else if (algo === 2) {
-    var move = calcBestMoveOne(game.turn());
-  } else if (algo === 3) {
-    var move = calcBestMoveNoAB(skill, game, game.turn())[1];
-  } else {
-    var move = calcBestMove(skill, game, game.turn())[1];
-  }
+  
+  // alpha-beta pruning
+  var move = calcBestMove(skill, game, game.turn(), eval)[1];
+  
   // Make the calculated move
   game.move(move);
   // Update board positions
@@ -22,15 +22,16 @@ var makeMove = function(algo, skill=3) {
 }
 
 // Computer vs Computer
-var playGame = function(algo=4, skillW=2, skillB=2) {
+var playGame = function(skillW=1, skillB=1, evalW=1, evalB=1) {
   if (game.game_over() === true) {
     console.log('game over');
     return;
   }
   var skill = game.turn() === 'w' ? skillW : skillB;
-  makeMove(algo, skill);
+  var eval = game.turn() === 'w' ? evalW : evalB;
+  makeMove(skill, eval);
   window.setTimeout(function() {
-    playGame(algo, skillW, skillB);
+    playGame(skillW, skillB, evalW, evalB);
   }, 250);
 };
 
