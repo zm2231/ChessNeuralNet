@@ -1,9 +1,9 @@
 # Chess AI
 A chess AI, with with different algorithms of increasing intelligence.
 
-Play live version here: (working on deployment)
+Play live version here: https://young-tundra-29308.herokuapp.com
 
-See my blog post about implementation here: (link will be posted later)
+See my blog post about implementation here: https://zm2231.github.io/coding/2019/08/06/test.html
 
 
 ## Getting Started
@@ -89,3 +89,5 @@ See [LICENSE-3RD-PARTY](LICENSE-3RD-PARTY) file for full licenses
 * Add an element of machine learning
 * Improve interface
 * Refactor code
+* Get this to work in Safari
+* The AI is terrible at beggining, but is amazing at endgame. Fix somehow?
