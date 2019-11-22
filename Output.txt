@@ -1,0 +1,46 @@
+Running 20 trials for the following game set:
+'White Depth 1 versus Black Depth 1'
+
+     Running tests with black evaluation function = 1
+
+     White won 9 out of 20 times.
+     Games took an average of 1.3360499999999997 seconds.      
+
+     Running tests with black evaluation function = 2
+
+     White won 6 out of 20 times.
+     Games took an average of 1.5142 seconds.
+
+Running 20 trials for the following game set:
+'White Depth 2 versus Black Depth 1'
+
+     Running tests with black evaluation function = 1
+
+     White won 20 out of 20 times.
+     Games took an average of 3.8766 seconds.
+
+     Running tests with black evaluation function = 2
+
+     White won 20 out of 20 times.
+     Games took an average of 5.152399999999999 seconds.       
+
+Running 20 trials for the following game set:
+'White Depth 3 versus Black Depth 1'
+
+     Running tests with black evaluation function = 1
+
+     White won 19 out of 20 times.
+     Games took an average of 124.74494999999999 seconds.      
+
+     Running tests with black evaluation function = 2
+
+     White won 20 out of 20 times.
+     Games took an average of 189.6092 seconds.
+
+Running 20 trials for the following game set:
+'White Depth 2 versus Black Depth 2'
+
+     Running tests with black evaluation function = 1
+
+     White won 11 out of 20 times.
+     Games took an average of 20.98095 seconds.

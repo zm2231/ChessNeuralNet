@@ -1,36 +1,18 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <title></title>
-      <link rel="stylesheet" href="./css/chessboard-0.3.0.min.css">
-   </head>
-   <body>
-      <a href="./dataPage.html">View Tested AI Game Data</a>
-      <div id="board" style="width: 400px"></div>
-      <select id="evalSelect" onclick="assignCPU()">
-         <option value="eval_1">eval_1</option>
-         <option value="eval_2">eval_2</option>
-         <option value="eval_3">eval_3</option>
-      </select>
-      <select id="depthSelect" onclick="assignCPU()">
-         <option value="depth_1">Depth 1</option>
-         <option value="depth_2">Depth 2</option>
-         <option value="depth_3">Depth 3</option>
-      </select>
-      <button onclick="game.reset(); board.position(game.fen());">Reset Board</button>
-      <h3 id="gameTitle"></h3>
-      <h3>Current Board Values:</h3>
-      <p id="eval_1"></p>
-      <p id="eval_2"></p>
-      <p id="eval_3"></p>
-   </body>
-   <script src="./js/jquery-3.2.1.min.js"></script>
-   <script src="./js/chess.min.js"></script>
-   <script src="./js/chessboard-0.3.0.min.js"></script>
-   <script src="./js/eval_2.js"></script>
-   <script src="./js/eval_3.js"></script>
-   <script src="./js/movecalc.js"></script>
-   <script src="./js/main.js"></script>
-   <script src="./js/boardconfig.js"></script>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./css/chessboard-0.3.0.min.css" />
+  </head>
+  <body>
+    <div id="board" style="width: 400px"></div>
+  </body>
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/chess.min.js"></script>
+  <script src="./js/chessboard-0.3.0.min.js"></script>
+  <script src="./js/movecalc.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/boardconfig.js"></script>
+  <!-- <script src="./js/runner.js"></script> -->
 </html>
