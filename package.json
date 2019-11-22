@@ -16,4 +16,5 @@
   "dependencies": {
     "express": "^4.15.3"
   }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
