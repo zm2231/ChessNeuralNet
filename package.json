@@ -1,27 +1,19 @@
 {
-  "name": "chess-ai-2-json",
+  "name": "chess-neural-net",
+  "version": "1.0.0",
   "description": "A chess AI, with different iterations and increasing intelligence",
   "main": "app.js",
-  "gypfile": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node public/js/runner.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/byanofsky/chess-ai-2.git",
-  "author": "byanofsky <byanofsky@me.com>",
-  "license": "Apache-2.0",
+  "repository": "git+https://github.com/zm2231/ChessNeuralNet.git",
+  "author": "zm2231 <zainmerchant@protonmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/byanofsky/chess-ai-2/issues"
+    "url": "https://github.com/zm2231/ChessNeuralNet/issues"
   },
-  "homepage": "https://github.com/byanofsky/chess-ai-2#readme",
+  "homepage": "https://github.com/zm2231/ChessNeuralNet#readme",
   "dependencies": {
-    "express": "^4.15.3",
-    "node-addon-api": "^1.7.1"
-  },
-  "nodemonConfig": {
-    "delay": "2500"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.3"
+    "express": "^4.15.3"
   }
 }
