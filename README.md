@@ -1,9 +1,10 @@
 # Chess AI
 A chess AI, with with different algorithms of increasing intelligence.
 
-Play live version here: https://young-tundra-29308.herokuapp.com
+Play live version here: https://chess-neural-net-zain0.herokuapp.com/
+Play live version with some extra html and css: https://codepen.io/zainmer/pen/jOOBjvv
 
-See my blog post about implementation here: https://zm2231.github.io/coding/2019/08/06/test.html
+See my blog post about implementation here: https://zm2231.github.io/coding/2019/10/23/test.html
 
 
 ## Getting Started
